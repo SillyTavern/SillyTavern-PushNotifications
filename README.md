@@ -6,6 +6,10 @@ No Extra APIs, no configs, just works™.
 
 ## Doesn't work?
 
+Okay, maybe it wasn't that simple.
+
+![image](https://github.com/Cohee1207/SillyTavern-PushNotifications/assets/18619528/752f409f-cf15-4db4-9c1f-742a4b5341c0)
+
 ### Check for browser and system permissions
 
 1. Chrome: https://knowledge.workspace.google.com/kb/how-to-enable-browser-notifications-000007831
