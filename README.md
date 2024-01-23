@@ -4,9 +4,14 @@ Allows to receive push notifications for incoming chat messages.
 
 No Extra APIs, no configs, just works™.
 
-## HTTPS IS REQUIRED!
+## Doesn't work?
 
-It won't work without SSL certificate set up, even on localhost.
+### Check for browser and system permissions
+
+1. Chrome: https://knowledge.workspace.google.com/kb/how-to-enable-browser-notifications-000007831
+2. Firefox: https://support.mozilla.org/en-US/kb/push-notifications-firefox
+
+### Configure SSL
 
 Below is a simple guide on how to generate and use self-signed certificates.
 
