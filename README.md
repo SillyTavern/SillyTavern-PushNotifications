@@ -8,7 +8,7 @@ No Extra APIs, no configs, just works™.
 
 Okay, maybe it wasn't that simple.
 
-![image](https://github.com/Cohee1207/SillyTavern-PushNotifications/assets/18619528/752f409f-cf15-4db4-9c1f-742a4b5341c0)
+![image](https://github.com/Cohee1207/SillyTavern-PushNotifications/assets/18619528/f6cd4c6a-76ad-4197-ac3e-a4d7d9322d54)
 
 ### Check for browser and system permissions
 
