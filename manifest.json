@@ -1,0 +1,12 @@
+{
+    "display_name": "Push Notifications",
+    "loading_order": 10,
+    "requires": [],
+    "optional": [],
+    "js": "index.js",
+    "css": "",
+    "author": "Cohee1207",
+    "version": "1.0.0",
+    "homePage": "https://github.com/Cohee1207/SillyTavern-PushNotifications",
+    "auto_update": true
+}
