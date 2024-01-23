@@ -8,11 +8,13 @@ Notification.requestPermission().then((permission) => {
             const context = window['SillyTavern'].getContext();
             const message = context.chat[messageId];
 
-            if (!message || message.mes === '' || message.mes === '...') return;
+            if (!message || message.mes === '' || message.mes === '...' || message.is_user) return;
+
+            const avatar = message.force_avatar ?? `/thumbnail?type=avatar&file=${encodeURIComponent(context.characters[context.characterId]?.avatar)}`;
 
             const notification = new Notification('SillyTavern - ' + message.name, {
                 body: message.mes,
-                icon: location.origin + message.avatar,
+                icon: location.origin + avatar,
             });
 
             notification.onclick = () => {
