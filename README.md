@@ -1,6 +1,6 @@
 # SillyTavern Push Notifications
 
-Allows to recieve push notifications for incoming chat messages. 
+Allows to receive push notifications for incoming chat messages.
 
 No Extra APIs, no configs, just works™.
 
