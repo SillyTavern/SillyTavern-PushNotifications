@@ -12,7 +12,7 @@ Notification.requestPermission().then((permission) => {
 
             const avatar = message.force_avatar ?? `/thumbnail?type=avatar&file=${encodeURIComponent(context.characters[context.characterId]?.avatar)}`;
 
-            const notification = new Notification('SillyTavern - ' + message.name, {
+            const notification = new Notification(message.name, {
                 body: message.mes,
                 icon: location.origin + avatar,
             });
