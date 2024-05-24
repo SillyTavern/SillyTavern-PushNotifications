@@ -1,3 +1,5 @@
+import { substituteParams } from '../../../../script.js';
+
 Notification.requestPermission().then((permission) => {
     if (permission === 'granted') {
         const { eventSource, event_types } = window['SillyTavern'].getContext();
@@ -13,7 +15,7 @@ Notification.requestPermission().then((permission) => {
             const avatar = message.force_avatar ?? `/thumbnail?type=avatar&file=${encodeURIComponent(context.characters[context.characterId]?.avatar)}`;
 
             const notification = new Notification(message.name, {
-                body: message.mes,
+                body: substituteParams(message.mes),
                 icon: location.origin + avatar,
             });
 
